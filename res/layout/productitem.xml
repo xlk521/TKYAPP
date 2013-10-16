@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" >
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <ImageView
+	        android:id="@+id/icon"
+	        android:layout_width="220px"
+	        android:layout_height="160px"
+	        android:layout_centerHorizontal="true"
+	        android:background="#f2f2f2" />
+
+	    <TextView
+	        android:id="@+id/menu_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dip"
+	        android:layout_marginTop="5dip"
+	        android:text="菜名" />
+
+	    <TextView
+	        android:id="@+id/menu_price"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dip"
+	        android:layout_marginTop="5dip"
+	        android:text="价钱" />
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <Button
+		        android:id="@+id/myBuy"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="我要购买" />
+		    <Button
+		        android:id="@+id/myCart"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="加入购物车" />
+	    </LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

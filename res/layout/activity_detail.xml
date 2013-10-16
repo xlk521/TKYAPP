@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="64dip"
+        android:background="@drawable/titlebar_bg_nor" >
+
+        <Button
+            android:id="@+id/left_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_back"
+            android:gravity="center"
+            android:paddingLeft="12.0dip"
+            android:paddingRight="12.0dip" />
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="205.0dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="40.0dip"
+            android:layout_marginRight="40.0dip"
+            android:background="@drawable/grouplist_title_bg"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/title_detail"
+            android:textColor="#ff000000"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <LinearLayout
+            android:id="@+id/LinearOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+				android:drawableLeft="@drawable/start"
+                android:text="订单编号" />
+
+            <EditText
+                android:id="@+id/detailorder"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_weight="1"
+                android:background="@drawable/edit_bg_n"
+                android:focusable="false"
+                android:hint="未选择" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+				android:drawableLeft="@drawable/start"
+                android:text="菜品名称" />
+
+            <EditText
+                android:id="@+id/detailname"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_weight="1"
+                android:background="@drawable/edit_bg_n"
+                android:focusable="false"
+                android:hint="未选择" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+				android:drawableLeft="@drawable/start"
+                android:text="@string/detail_price" />
+
+            <EditText
+                android:id="@+id/detailprice"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_weight="1"
+                android:background="@drawable/edit_bg_n"
+                android:focusable="false"
+                android:hint="未选择" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/detail_num"
+                android:drawableLeft="@drawable/start"/>
+
+            <Spinner
+                android:id="@+id/detailspinner"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:background="@drawable/edit_bg_n" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/detail_all"
+                android:drawableLeft="@drawable/start" />
+
+            <EditText
+                android:id="@+id/detailall"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_weight="1"
+                android:background="@drawable/edit_bg_n"
+                android:focusable="false"
+                android:hint="未选择" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/detail_post"
+                android:drawableLeft="@drawable/start"/>
+
+            <EditText
+                android:id="@+id/detailaddress"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_weight="1"
+                android:background="@drawable/edit_bg_n"
+                android:focusable="false"
+                android:hint="未选择"
+                android:text="所持车票上显示位置" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="15dip"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/detailsend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/btn_register"
+                android:text="提交订单"
+                android:textColor="#ffffffff"
+                android:textSize="15.0sp" />
+
+            <Button
+                android:id="@+id/detailcancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/btn_login"
+                android:text="取消订单"
+                android:textColor="#ffffffff"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

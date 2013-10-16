@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffff"
+	android:orientation="vertical" >
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="64dip"
+		android:background="@drawable/titlebar_bg_nor" >
+		<TextView
+			android:id="@+id/titleText"
+			android:layout_width="205.0dip"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_marginLeft="40.0dip"
+			android:layout_marginRight="40.0dip"
+			android:background="@drawable/grouplist_title_bg"
+			android:ellipsize="middle"
+			android:gravity="center"
+			android:singleLine="true"
+			android:text="@string/title_client"
+			android:textColor="#ff000000"
+			android:textSize="18sp" />
+	</RelativeLayout>
+	<GridView
+		android:id="@+id/gridview"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dip"
+		android:layout_marginRight="20dip"
+		android:layout_marginTop="10dip"
+		android:gravity="center"
+		android:horizontalSpacing="20dip"
+		android:listSelector="#00000000"
+		android:numColumns="3"
+		android:paddingBottom="30dip"
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		android:paddingTop="30dip"
+		android:stretchMode="columnWidth"
+		android:verticalSpacing="30dip" />
+</LinearLayout>

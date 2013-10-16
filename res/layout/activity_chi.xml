@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@+id/myTabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+				<LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                    <GridView
+						android:id="@+id/TabGrid1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dip"
+						android:layout_marginRight="10dip"
+						android:layout_marginTop="10dip"
+						android:gravity="center"
+						android:horizontalSpacing="20dip"
+						android:listSelector="#00000000"
+						android:numColumns="2"
+						android:paddingBottom="10dip"
+						android:paddingLeft="5dip"
+						android:paddingRight="5dip"
+						android:paddingTop="20dip"
+						android:stretchMode="columnWidth"
+						android:background="#f2f2f2"
+						android:verticalSpacing="30dip" />
+					<Button
+					    android:id="@+id/btnMore1"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="加载更多" />
+                    
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                    <GridView
+						android:id="@+id/TabGrid2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dip"
+						android:layout_marginRight="10dip"
+						android:layout_marginTop="10dip"
+						android:gravity="center"
+						android:horizontalSpacing="20dip"
+						android:listSelector="#00000000"
+						android:numColumns="2"
+						android:paddingBottom="10dip"
+						android:paddingLeft="5dip"
+						android:paddingRight="5dip"
+						android:paddingTop="20dip"
+						android:stretchMode="columnWidth"
+						android:background="#f2f2f2"
+						android:verticalSpacing="30dip" />
+
+					<Button
+					    android:id="@+id/btnMore2"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="加载更多" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

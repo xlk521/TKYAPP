@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">旅客便利店</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- login -->
+    <string name="title_login">登录</string>
+    <string name="account_name">登录名</string>
+    <string name="account_pwd">密码</string>
+    <string name="account_exit">退出</string>
+    <string name="account_login">登录</string>
+    <string name="text_loading_app">铁路客管系统</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- toast -->
+    <string name="toast_exit">再按一次推出</string>
+    <string name="toast_http_error">联网错误</string>
+    <string name="toast_net_error">请检查网络设置</string>
+    <string name="toast_miss_user">请输入登录账号</string>
+    <string name="toast_miss_pass">请输入登录密码</string>
+    <string name="toast_miss_water_receiver">列车编号与停靠站不许为空，请重新输入</string>
+    <string name="toast_edit_nothing">您还没有输入任何内容</string>
+    <string name="toast_edit_ex_limit">输入字数超出限制</string>
+    <string name="toast_miss_receiver">请选择主抄单位</string>
+    <string name="toast_send_telegraph_success">电报发送成功</string>
+    <string name="toast_send_telegraph_failure">电报发送失败</string>
+    <string name="toast_null">未知错误</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <!-- title -->
+    <string name="title_client">旅客应用列表</string>
+    <string name="title_chi">吃</string>
+    <string name="title_he">喝</string>
+    <string name="title_wan">玩</string>
+    <string name="title_le">乐</string>
+    <string name="title_taobao">列车淘宝</string>
+    <string name="title_ed">广告</string>
+    <string name="title_chi01">我要点餐</string>
+    <string name="title_chi02">零食车</string>
+    <string name="title_he01">饮品订购</string>
+    <string name="title_wan01">牌类购买</string>
+    <string name="title_wan02">列车游戏</string>
+    <string name="title_le01">电子期刊</string>
+    <string name="title_le02">影视欣赏</string>
+    <string name="title_le03">段子欣赏</string>
+    <string name="title_le04">戏曲欣赏</string>
+    <string name="title_le05">童趣时代</string>
+    <string name="title_activity_chi">ChiActivity</string>
+    <string name="title_activity_he">HeActivity</string>
+    <string name="title_activity_wan">WanActivity</string>
+    <string name="title_activity_le">LeActivity</string>
+    <string name="title_activity_tao">TaoActivity</string>
+    <string name="title_activity_ad">AdActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_detail">订单详情</string>
+    <string name="detail_price">菜品单价</string>
+    <string name="detail_num">菜品数量</string>
+    <string name="detail_all">应付金额</string>
+    <string name="detail_post">送货地址</string>
+
+</resources>

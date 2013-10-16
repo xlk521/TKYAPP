@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tkyapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.example.tkyapp.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.tkyapp.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.tkyapp.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.tkyapp.ChiActivity"
+            android:label="@string/title_activity_chi" >
+        </activity>
+        <activity
+            android:name="com.example.tkyapp.HeActivity"
+            android:label="@string/title_activity_he" >
+        </activity>
+        <activity
+            android:name="com.example.tkyapp.WanActivity"
+            android:label="@string/title_activity_wan" >
+        </activity>
+        <activity
+            android:name="com.example.tkyapp.LeActivity"
+            android:label="@string/title_activity_le" >
+        </activity>
+        <activity
+            android:name="com.example.tkyapp.TaoActivity"
+            android:label="@string/title_activity_tao" >
+        </activity>
+        <activity
+            android:name="com.example.tkyapp.AdActivity"
+            android:label="@string/title_activity_ad" >
+        </activity>
+        <activity
+            android:name="com.example.tkyapp.DetailActivity"
+            android:label="@string/title_activity_detail" >
+        </activity>
+    </application>
+
+</manifest>

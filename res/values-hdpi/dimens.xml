@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="bookshelf_height">145dip</dimen>
+	<dimen name="book_width">70dip</dimen>
+	<dimen name="book_height">130dip</dimen>
+	<dimen name="book_text_top">20dip</dimen>
+	<dimen name="book_text_left">12dip</dimen>
+	<dimen name="book_text_right">3dip</dimen>
+	<!--  -->
+	<dimen name="book_marginBottom">1dip</dimen>
+	<dimen name="bookshelf_paddingBottom">5dip</dimen>
+	<dimen name="bookshelf_paddingTop">5dip</dimen>
+	<dimen name="bookshelf_titlesize">18sp</dimen>
+	<!--  -->
+	<dimen name="calalogue_titlesize">18sp</dimen>
+	<dimen name="calalogue_titlepaddingTop">2dip</dimen>
+	<dimen name="calalogue_titlepaddingBottom">3dip</dimen>
+	<dimen name="calalogue_searchsize">14sp</dimen>
+	<dimen name="calalogue_searchtop">3dip</dimen>
+	<dimen name="calalogue_searchbottom">3dip</dimen>
+	<dimen name="calalogue_searchleft">5dip</dimen>
+	<dimen name="calalogue_searchright">5dip</dimen>
+	<dimen name="calalogue_editsearchsize">14dip</dimen>
+	<!--  -->
+	<dimen name="calalogue_item_width">20dip</dimen>
+	<dimen name="calalogue_item_size">14sp</dimen>
+	<dimen name="calalogue_item_top">10dip</dimen>
+	<dimen name="calalogue_item_left">10dip</dimen>
+	<dimen name="calalogue_item_right">10dip</dimen>
+</resources>
